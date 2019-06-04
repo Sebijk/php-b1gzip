@@ -47,7 +47,7 @@ struct zip_res {
  *
  * Every user visible function must have an entry in b1gzip_functions[].
  */
-function_entry b1gzip_functions[] = {
+zend_function_entry b1gzip_functions[] = {
 	PHP_FE(b1gzip_create, NULL)
 	PHP_FE(b1gzip_add, NULL)	
 	PHP_FE(b1gzip_final, NULL)
