@@ -1,6 +1,9 @@
 # b1gZIP
 b1gZIP is a module for PHP that allows extremely fast creation of ZIP archives. b1gZIP is based on the ZipArchive C++ library from Artpol Software and is completely free.
 
+# Supported PHP versions
+PHP Version 4.3 - 5.6. PHP7 is not supported.
+
 # Compile
 Download the ZipArchive files from http://www.artpol-software.com/Download.aspx and compile this with the -fPIC -Option.
 After successfully build compile b1gzip with:
